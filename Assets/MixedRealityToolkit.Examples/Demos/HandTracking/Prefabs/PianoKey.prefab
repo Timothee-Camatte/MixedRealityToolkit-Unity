@@ -67,6 +67,7 @@ MonoBehaviour:
   pressDistance: 0.008
   releaseDistanceDelta: 0.001
   returnRate: 10
+  enforceForwardPush: 0
   TouchBegin:
     m_PersistentCalls:
       m_Calls:
@@ -160,7 +161,7 @@ MonoBehaviour:
   eventsToReceive: 0
   touchableSurface: 0
   bounds: {x: 0.004711149, y: 0.024825739}
-  collider: {fileID: 6113324524881885153}
+  touchableCollider: {fileID: 6113324524881885153}
 --- !u!82 &6132438213147574949
 AudioSource:
   m_ObjectHideFlags: 0
